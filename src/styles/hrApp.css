@@ -1,0 +1,24 @@
+.custom-dropdown .dropdown-toggle::after {
+    display: none; /* Hide the default dropdown caret */
+  }
+  
+  .custom-dropdown .dropdown-toggle {
+    position: relative;
+    padding-right: 40px; /* Increase padding to make room for the icon */
+  }
+  
+  .custom-dropdown .dropdown-toggle::before {
+    font-weight: 900;
+    position: absolute;
+    right: 10px; /* Adjust position to the right */
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; /* Ensure the icon doesn't interfere with the click event */
+  }
+  
+  .custom-dropdown .dropdown-item.active,
+  .custom-dropdown .dropdown-item:active {
+    background-color: #d3d3d3; /* Light grey background color for active items */
+    color: #000; /* Black text color */
+  }
+  

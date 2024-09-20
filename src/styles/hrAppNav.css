@@ -1,0 +1,5 @@
+.navbar-nav .nav-link {
+    margin-left: 14px !important; /* Ensure minimum gap */
+    margin-right: 14px !important; /* Ensure minimum gap */
+  }
+  

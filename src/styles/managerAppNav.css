@@ -1,0 +1,12 @@
+.nav-link {
+    margin-right: 15px; /* Add space between nav links */
+  }
+  
+  .navbar-brand .nav-link {
+    margin-right: 0; /* Remove margin from brand nav link */
+  }
+  
+  .navbar-nav {
+    padding-left: 20px; /* Start nav links a bit to the right */
+  }
+  

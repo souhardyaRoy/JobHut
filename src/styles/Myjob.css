@@ -1,0 +1,17 @@
+.input-group-with-error {
+    position: relative;
+  }
+  
+  .sticky-cell {
+    position: sticky;
+    right: 0;
+    background: white; /* Ensure the background matches the rest of your grid */
+    z-index: 999; /* Ensure the cell stays above other content */
+  }
+  
+
+  
+  /* Set the display property of the table cell to vertical-align the content */
+  .table td {
+    vertical-align: middle;
+  }
